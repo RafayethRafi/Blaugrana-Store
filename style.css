@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(225, 151, 151);
+}
+
+hr{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(246, 110, 110);
+}
+.star{
+    padding: 10px 0;
+}
+.star i{
+    font: size 0.8em;
+    color: rgb(105, 141, 226); 
+}
+.normalb{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: rgb(154, 58, 58);
+    color: white;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    border-radius: 30px;
+}
+.normalb:hover{
+    background-color: rgb(240, 199, 199);
+    color: black;
+}
+.navbar{
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    padding-bottom: 50px;
+}
+
+/* Mobile Nav */
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+button{
+    border: none;
+    color: black;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar i.active{
+    color: rgb(246, 110, 110);
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+#bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+
+    transition: 0.3s ease;
+    color: black;
+}
+
+#bar:hover,
+#bar.active{
+    color: white;
+}
+#home{
+    background-color: black;
+    padding-top: 100px;
+    background-size: cover;
+}
+#home span{
+    color: rgb(194, 90, 90);
+}
+
+
+#p-info{
+    background-color: black;
+}
+
+
+#upcoming .one .details{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 150px;
+    left: 40px;
+    transition: 00.3s ease;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.grid-container > div{
+
+    border: 2px solid black;
+    background-color: rgba(201, 169, 169, 0.38);
+    text-align: center;
+    padding: 5px;
+}
+.item4{
+    grid-column: 4/4;
+    grid-row: 1/span 2;
+}
+
+/* Top Products */
+
+.product{
+    cursor: pointer;
+    width: 100%;
+
+}
+.product img{
+    transition: 0.3s all;
+}
+.product:hover img{
+    border-radius: 20px;
+    background-color: rgba(230, 132, 132, 0.732);
+}
+
+.product .buy-button{
+    color: white;
+    background-color: rgb(111, 109, 181);
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.product .buy-button:hover{
+    background-color: rgb(35, 30, 130);
+    color: rgb(218, 182, 116);
+    padding: 20px;
+    transition: 0.3s ease;
+}
+
+
+.item{
+   padding-bottom: 30px;
+}
+
+
+.hishab{
+    font-size: 50px;
+}
+
+
+ul{
+    color: white;
+}
+a{
+    color: white;
+    
+}
